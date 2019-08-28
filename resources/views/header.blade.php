@@ -19,9 +19,9 @@
 							<a href="#">Trang Chủ</a>
 							<a href="{{route('gioi-thieu')}}">Giới Thiệu</a>
 							<a href="#">Sản Phẩm</a>
-							<a href="#">Khuyến Mãi</a>
-							<a href="#">Tư Vấn</a>
-							<a href="{{route('tu-van-suc-khoe')}}">Chủ Đề Sức Khỏe</a>
+							<a href="{{route('khuyen-mai')}}">Khuyến Mãi</a>
+							<a href="{{route('tu-van-suc-khoe')}}">Tư Vấn</a>
+							<a href="{{route('chu-de-suc-khoe')}}">Chủ Đề Sức Khỏe</a>
 						</div>
 					</div>
 
@@ -62,22 +62,10 @@
                   </ul>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="#">Khuyến mãi</a>
+					<a class="nav-link " href="{{route('khuyen-mai')}}">Khuyến mãi</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Tư vấn <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
-					<ul class="sub-menu ">
-					<li><a href=""style="font-size: 18px" >Gen trị mụn</a>
-					</li>
-					
-                    <li><a href="#"style="font-size: 18px">Sữa rửa mặt</a></li>
-					
-                    <li><a href="#"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
-                    
-                  </ul>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " href="{{route('tu-van-suc-khoe')}}">Chủ đề sức khỏe <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
+					<a class="nav-link" href="{{route('tu-van-suc-khoe')}}">Tư vấn <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
 					<ul class="sub-menu ">
 					<li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px" >Gen trị mụn</a>
 					</li>
@@ -85,6 +73,18 @@
                     <li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px">Sữa rửa mặt</a></li>
 					
                     <li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
+                    
+                  </ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " href="{{route('chu-de-suc-khoe')}}">Chủ đề sức khỏe <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
+					<ul class="sub-menu ">
+					<li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px" >Gen trị mụn</a>
+					</li>
+					
+                    <li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px">Sữa rửa mặt</a></li>
+					
+                    <li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
                     
                 </ul>
             </li>
