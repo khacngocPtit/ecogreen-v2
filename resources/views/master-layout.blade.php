@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('css/khuyenmai.css')}}">
-    <link rel="stylesheet" href="{{asset('css/chude-sk.css')}}">
-    <!-- @yield('css') -->
+    
+    
+    @yield('css')
 </head>
 <body>
     @include('header')

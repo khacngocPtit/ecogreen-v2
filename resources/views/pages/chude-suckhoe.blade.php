@@ -1,4 +1,14 @@
 @extends('master-layout')
+@section('title')
+Chủ đề sức khỏe
+@endsection
+
+
+
+@section('css')
+<link rel="stylesheet" href="{{asset('css/chude-sk.css')}}">
+@endsection
+@section('content')
 @section('content')
 <div class="container">
 		<div class="tc-km">

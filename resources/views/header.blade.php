@@ -64,7 +64,7 @@
 		</div>
 	</div>
 
-	<div class="header-2" id="bg-light" style="z-index: 1;">
+	<div class="header-2" id="bg-light" style="z-index: 1000;">
 		<div class="container">
 			<ul class="nav main-menu">
 				<li class="nav-item">

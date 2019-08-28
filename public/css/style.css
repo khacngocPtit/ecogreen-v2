@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
 img{
   max-width: 100%;
   height: auto;
@@ -12,7 +14,7 @@ img{
   background-position: center; 
 }
 #bg-light{
-
+  
 }
 .header-1 .btn-success{
   background-color: #FF6A6A;
@@ -25,6 +27,7 @@ img{
 }
 .header-2 {
   background-color: #FF6A6A;
+
 }
 
 .header-2 a {
