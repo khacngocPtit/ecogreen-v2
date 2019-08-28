@@ -14,9 +14,18 @@
 Route::get('/', function () {
     return view('pages.index');
 })->name('trang-chu');
+
+
+
 Route::get('/gioi-thieu', function () {
     return view('pages.gioithieu');
 })->name('gioi-thieu');
+
+
+Route::get('/tu-van-suc-khoe',function(){
+    return view('pages.tuvan-suckhoe');
+})->name('tu-van-suc-khoe');
+
 Route::get('/san-pham', function () {
     return view('pages.sanpham');
 })->name('san-pham');
