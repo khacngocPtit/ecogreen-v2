@@ -18,10 +18,34 @@
 						<div class="overlay-content">
 							<a href="#">Trang Chủ</a>
 							<a href="{{route('gioi-thieu')}}">Giới Thiệu</a>
-							<a href="#">Sản Phẩm</a>
+							<a class="blog" href="javascript:void(0)">Sản Phẩm
+								<div class="blog-item text-center">
+									<ul class="abc">
+										<li><a href="">Kinh Doanh</a></li>
+										<li><a href="">Kinh Doanh</a></li>
+										<li><a href="">Kinh Doanh</a></li>
+									</ul>
+								</div>
+							</a>
 							<a href="{{route('khuyen-mai')}}">Khuyến Mãi</a>
-							<a href="{{route('tu-van-suc-khoe')}}">Tư Vấn</a>
-							<a href="{{route('chu-de-suc-khoe')}}">Chủ Đề Sức Khỏe</a>
+							<a class="blog" href="javascript:void(0)">Tư Vấn
+								<div class="blog-item text-center">
+									<ul>
+										<li><a href="{{route('tu-van-suc-khoe')}}">Kinh Doanh</a></li>
+										<li><a href="{{route('tu-van-suc-khoe')}}">Kinh Doanh</a></li>
+										<li><a href="{{route('tu-van-suc-khoe')}}">Kinh Doanh</a></li>											
+									</ul>
+								</div>
+							</a>
+							<a class="blog" href="{{route('chu-de-suc-khoe')}}">Chủ Đề Sức Khỏe
+								<div class="blog-item text-center">
+									<ul>
+										<li><a href="">Kinh Doanh</a></li>
+										<li><a href="">Kinh Doanh</a></li>
+										<li><a href="">Kinh Doanh</a></li>											
+									</ul>
+								</div>
+							</a>
 						</div>
 					</div>
 
@@ -52,14 +76,14 @@
 				<li class="nav-item ">
 					<a class="nav-link" href="#">Sản phẩm <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
 					<ul class="sub-menu ">
-					<li><a href=""style="font-size: 18px" >Gen trị mụn</a>
-					</li>
-					
-                    <li><a href="#"style="font-size: 18px">Sữa rửa mặt</a></li>
-					
-                    <li><a href="#"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
-                    
-                  </ul>
+						<li><a href=""style="font-size: 18px" >Gen trị mụn</a>
+						</li>
+
+						<li><a href="#"style="font-size: 18px">Sữa rửa mặt</a></li>
+
+						<li><a href="#"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
+
+					</ul>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link " href="{{route('khuyen-mai')}}">Khuyến mãi</a>
@@ -67,33 +91,33 @@
 				<li class="nav-item">
 					<a class="nav-link" href="{{route('tu-van-suc-khoe')}}">Tư vấn <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
 					<ul class="sub-menu ">
-					<li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px" >Gen trị mụn</a>
-					</li>
-					
-                    <li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px">Sữa rửa mặt</a></li>
-					
-                    <li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
-                    
-                  </ul>
+						<li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px" >Gen trị mụn</a>
+						</li>
+
+						<li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px">Sữa rửa mặt</a></li>
+
+						<li><a href="{{route('tu-van-suc-khoe')}}"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
+
+					</ul>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link " href="{{route('chu-de-suc-khoe')}}">Chủ đề sức khỏe <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
 					<ul class="sub-menu ">
-					<li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px" >Gen trị mụn</a>
-					</li>
-					
-                    <li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px">Sữa rửa mặt</a></li>
-					
-                    <li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
-                    
-                </ul>
-            </li>
-            <li class="nav-item pl-3">
-            	<a class="nav-link" href="#" ><i class="fas fa-phone-alt"></i> Hotline: 0838114333</a>
-            </li>
+						<li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px" >Gen trị mụn</a>
+						</li>
+
+						<li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px">Sữa rửa mặt</a></li>
+
+						<li><a href="{{route('chu-de-suc-khoe')}}"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
+
+					</ul>
+				</li>
+				<li class="nav-item pl-3">
+					<a class="nav-link" href="#" ><i class="fas fa-phone-alt"></i> Hotline: 0838114333</a>
+				</li>
 
 
-        </ul>
-    </div>
-</div>
+			</ul>
+		</div>
+	</div>
 </header>
