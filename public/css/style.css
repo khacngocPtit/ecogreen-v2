@@ -361,3 +361,6 @@ img{
        height: 36px;
     }
 }
+a{
+  text-decoration: none !important;
+}
