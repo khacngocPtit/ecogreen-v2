@@ -55,8 +55,5 @@ Route::get('/chi-tiet-san-pham', function () {
     return view('pages.chitiet-sanpham');
 })->name('chi-tiet-san-pham');
 
-Route::get('/master-layout', function () {
-    return view('master-layout');
-})->name('chi-tiet-san-pham');
 
 

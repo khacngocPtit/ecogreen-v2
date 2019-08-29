@@ -21,26 +21,6 @@ Sản phẩm
 	        <div class="col-md-3 col-sm-6">
 	            <div class="product-grid6">
 	                <div class="product-image6">
-	                    <a href="#">
-	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
-	                    </a>
-	                </div>
-	                <div class="product-content">
-	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
-	                    <div class="price">250.000 đ
-	                        <span>200.000 đ</span>
-	                    </div>
-	                </div>
-	                <ul class="social">
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Xem nhiều hơn"><i class="fa fa-search"></i></a></li>
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Yêu thích"><i class="fa fa-shopping-bag"></i></a></li>
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></a></li>
-	                </ul>
-	            </div>
-	        </div>
-	        <div class="col-md-3 col-sm-6">
-	            <div class="product-grid6">
-	                <div class="product-image6">
 	                    <a href="{{route('chi-tiet-san-pham')}}">
 	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
 	                    </a>
@@ -66,7 +46,27 @@ Sản phẩm
 	                    </a>
 	                </div>
 	                <div class="product-content">
-	                    <h3 class="title"><a href="#">Qik Hair</a></h3>
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
+	                    <div class="price">250.000 đ
+	                        <span>200.000 đ</span>
+	                    </div>
+	                </div>
+	                <ul class="social">
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Xem nhiều hơn"><i class="fa fa-search"></i></a></li>
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Yêu thích"><i class="fa fa-shopping-bag"></i></a></li>
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></a></li>
+	                </ul>
+	            </div>
+	        </div>
+	        <div class="col-md-3 col-sm-6">
+	            <div class="product-grid6">
+	                <div class="product-image6">
+	                    <a href="{{route('chi-tiet-san-pham')}}">
+	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
+	                    </a>
+	                </div>
+	                <div class="product-content">
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
 	                    <div class="price">250.000 đ
 	                        <span>200.000</span>
 	                    </div>
@@ -86,7 +86,7 @@ Sản phẩm
 	                    </a>
 	                </div>
 	                <div class="product-content">
-	                    <h3 class="title"><a href="#">Qik Hair</a></h3>
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
 	                    <div class="price">250.000 đ
 	                        <span>200.000 đ</span>
 	                    </div>
@@ -107,26 +107,6 @@ Sản phẩm
 	        <div class="col-md-3 col-sm-6">
 	            <div class="product-grid6">
 	                <div class="product-image6">
-	                    <a href="#">
-	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
-	                    </a>
-	                </div>
-	                <div class="product-content">
-	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
-	                    <div class="price">250.000 đ
-	                        <span>200.000 đ</span>
-	                    </div>
-	                </div>
-	                <ul class="social">
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Xem nhiều hơn"><i class="fa fa-search"></i></a></li>
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Yêu thích"><i class="fa fa-shopping-bag"></i></a></li>
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></a></li>
-	                </ul>
-	            </div>
-	        </div>
-	        <div class="col-md-3 col-sm-6">
-	            <div class="product-grid6">
-	                <div class="product-image6">
 	                    <a href="{{route('chi-tiet-san-pham')}}">
 	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
 	                    </a>
@@ -152,7 +132,27 @@ Sản phẩm
 	                    </a>
 	                </div>
 	                <div class="product-content">
-	                    <h3 class="title"><a href="#">Qik Hair</a></h3>
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
+	                    <div class="price">250.000 đ
+	                        <span>200.000 đ</span>
+	                    </div>
+	                </div>
+	                <ul class="social">
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Xem nhiều hơn"><i class="fa fa-search"></i></a></li>
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Yêu thích"><i class="fa fa-shopping-bag"></i></a></li>
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></a></li>
+	                </ul>
+	            </div>
+	        </div>
+	        <div class="col-md-3 col-sm-6">
+	            <div class="product-grid6">
+	                <div class="product-image6">
+	                    <a href="{{route('chi-tiet-san-pham')}}">
+	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
+	                    </a>
+	                </div>
+	                <div class="product-content">
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
 	                    <div class="price">250.000 đ
 	                        <span>200.000</span>
 	                    </div>
@@ -172,7 +172,7 @@ Sản phẩm
 	                    </a>
 	                </div>
 	                <div class="product-content">
-	                    <h3 class="title"><a href="#">Qik Hair</a></h3>
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
 	                    <div class="price">250.000 đ
 	                        <span>200.000 đ</span>
 	                    </div>
@@ -193,26 +193,6 @@ Sản phẩm
 	        <div class="col-md-3 col-sm-6">
 	            <div class="product-grid6">
 	                <div class="product-image6">
-	                    <a href="#">
-	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
-	                    </a>
-	                </div>
-	                <div class="product-content">
-	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
-	                    <div class="price">250.000 đ
-	                        <span>200.000 đ</span>
-	                    </div>
-	                </div>
-	                <ul class="social">
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Xem nhiều hơn"><i class="fa fa-search"></i></a></li>
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Yêu thích"><i class="fa fa-shopping-bag"></i></a></li>
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></a></li>
-	                </ul>
-	            </div>
-	        </div>
-	        <div class="col-md-3 col-sm-6">
-	            <div class="product-grid6">
-	                <div class="product-image6">
 	                    <a href="{{route('chi-tiet-san-pham')}}">
 	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
 	                    </a>
@@ -238,7 +218,27 @@ Sản phẩm
 	                    </a>
 	                </div>
 	                <div class="product-content">
-	                    <h3 class="title"><a href="#">Qik Hair</a></h3>
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
+	                    <div class="price">250.000 đ
+	                        <span>200.000 đ</span>
+	                    </div>
+	                </div>
+	                <ul class="social">
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Xem nhiều hơn"><i class="fa fa-search"></i></a></li>
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Yêu thích"><i class="fa fa-shopping-bag"></i></a></li>
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></a></li>
+	                </ul>
+	            </div>
+	        </div>
+	        <div class="col-md-3 col-sm-6">
+	            <div class="product-grid6">
+	                <div class="product-image6">
+	                    <a href="{{route('chi-tiet-san-pham')}}">
+	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
+	                    </a>
+	                </div>
+	                <div class="product-content">
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
 	                    <div class="price">250.000 đ
 	                        <span>200.000</span>
 	                    </div>
@@ -258,7 +258,7 @@ Sản phẩm
 	                    </a>
 	                </div>
 	                <div class="product-content">
-	                    <h3 class="title"><a href="#">Qik Hair</a></h3>
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
 	                    <div class="price">250.000 đ
 	                        <span>200.000 đ</span>
 	                    </div>
@@ -279,26 +279,6 @@ Sản phẩm
 	        <div class="col-md-3 col-sm-6">
 	            <div class="product-grid6">
 	                <div class="product-image6">
-	                    <a href="#">
-	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
-	                    </a>
-	                </div>
-	                <div class="product-content">
-	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
-	                    <div class="price">250.000 đ
-	                        <span>200.000 đ</span>
-	                    </div>
-	                </div>
-	                <ul class="social">
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Xem nhiều hơn"><i class="fa fa-search"></i></a></li>
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Yêu thích"><i class="fa fa-shopping-bag"></i></a></li>
-	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></a></li>
-	                </ul>
-	            </div>
-	        </div>
-	        <div class="col-md-3 col-sm-6">
-	            <div class="product-grid6">
-	                <div class="product-image6">
 	                    <a href="{{route('chi-tiet-san-pham')}}">
 	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
 	                    </a>
@@ -324,7 +304,27 @@ Sản phẩm
 	                    </a>
 	                </div>
 	                <div class="product-content">
-	                    <h3 class="title"><a href="#">Qik Hair</a></h3>
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
+	                    <div class="price">250.000 đ
+	                        <span>200.000 đ</span>
+	                    </div>
+	                </div>
+	                <ul class="social">
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Xem nhiều hơn"><i class="fa fa-search"></i></a></li>
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Yêu thích"><i class="fa fa-shopping-bag"></i></a></li>
+	                    <li><a href="{{route('chi-tiet-san-pham')}}" data-tip="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></a></li>
+	                </ul>
+	            </div>
+	        </div>
+	        <div class="col-md-3 col-sm-6">
+	            <div class="product-grid6">
+	                <div class="product-image6">
+	                    <a href="{{route('chi-tiet-san-pham')}}">
+	                        <img class="pic-1" src="{{asset('images/sp-01.jpg')}}">
+	                    </a>
+	                </div>
+	                <div class="product-content">
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
 	                    <div class="price">250.000 đ
 	                        <span>200.000</span>
 	                    </div>
@@ -344,7 +344,7 @@ Sản phẩm
 	                    </a>
 	                </div>
 	                <div class="product-content">
-	                    <h3 class="title"><a href="#">Qik Hair</a></h3>
+	                    <h3 class="title"><a href="{{route('chi-tiet-san-pham')}}">Qik Hair</a></h3>
 	                    <div class="price">250.000 đ
 	                        <span>200.000 đ</span>
 	                    </div>

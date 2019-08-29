@@ -13,7 +13,7 @@ Chi tiết sản phẩm
 	<div class="container">
 		<div class="link">
 			<a href="{{route('trang-chu')}}">Trang chủ</a>
-			<span>></span>
+			<span> > </span>
 			<a href="{{route('chi-tiet-san-pham')}}">Chi tiết sản phẩm</a>
 		</div>
 		<div class="row mt-4">

@@ -24,7 +24,8 @@
 
 	
 </body>
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/40e36cd30a.js"></script>
     <script type="text/javascript" src="libs/OwlCarousel2/js/owl.carousel.min.js"></script>
