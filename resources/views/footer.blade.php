@@ -53,7 +53,7 @@
 								<i class="fas fa-warehouse i-footer"> Số 1 Lương Yên, Q.Hai Bà Trưng, Hà Nội
 								</i>
 								<div class="footer-phone">
-									<i class="fas fa-phone">  0934 323 882</i>
+									<i class="fas fa-phone-alt">  0934 323 882</i>
 									</div>
 									<div class="footer-email">
 										<i class="far fa-envelope">  support@suplo.vn</i>

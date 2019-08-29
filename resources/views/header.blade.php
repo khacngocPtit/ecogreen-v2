@@ -13,7 +13,7 @@
 							<button class="btn btn-success" type="submit" style="z-index: -1"><i class="fas fa-search"></i></button> 
 						</div>
 					</div>
-					<div id="myNav" class="overlay" >
+					<div id="myNav" class="overlay" style="z-index: 99">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						<div class="overlay-content">
 							<a href="#">Trang Chủ</a>
