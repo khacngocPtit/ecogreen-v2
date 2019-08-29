@@ -1,4 +1,13 @@
 @extends('master-layout')
+@section('title')
+Tư vấn sức khỏe
+@endsection
+
+
+
+@section('css')
+	<link rel="stylesheet" href="{{ asset('css/khuyenmai.css')}}">
+@endsection
 @section('content')
 <div class="container">
 			<div class="tc-km">

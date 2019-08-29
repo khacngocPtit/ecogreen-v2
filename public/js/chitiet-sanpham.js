@@ -13,3 +13,11 @@ new Vue({
 		}
 	}
 })
+new Vue({
+	el:'#menu3',
+	methods:{
+		thanks: function(){
+			alert:"Cám ơn ý kiến góp ý của bạn !!!";
+		}
+	}
+})

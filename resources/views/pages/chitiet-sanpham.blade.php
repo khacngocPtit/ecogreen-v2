@@ -131,7 +131,7 @@ Chi tiết sản phẩm
 							<h5>Đánh giá của bạn:</h5>
 							<textarea name="text"></textarea>
 					      </form>
-					      <button class="btn btn-primary" >Gửi</button>
+					      <button class="btn btn-primary" v-on:keyup.enter="thanks">Gửi</button>
 
 					    </div>
 				  </div>
