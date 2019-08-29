@@ -74,14 +74,14 @@
 					<a class="nav-link" href="{{route('gioi-thieu')}}">Giới thiệu</a>
 				</li>
 				<li class="nav-item ">
-					<a class="nav-link" href="#">Sản phẩm <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
+					<a class="nav-link" href="{{route('san-pham')}}">Sản phẩm <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 14px"></i></a>
 					<ul class="sub-menu ">
-						<li><a href=""style="font-size: 18px" >Gen trị mụn</a>
+						<li><a href="{{route('san-pham')}}"style="font-size: 18px" >Gen trị mụn</a>
 						</li>
 
-						<li><a href="#"style="font-size: 18px">Sữa rửa mặt</a></li>
+						<li><a href="{{route('san-pham')}}"style="font-size: 18px">Sữa rửa mặt</a></li>
 
-						<li><a href="#"style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
+						<li><a href="{{route('san-pham')}}style="font-size: 18px">Thuốc trị nấm, tàn nhang, sẹo</a></li>
 
 					</ul>
 				</li>
